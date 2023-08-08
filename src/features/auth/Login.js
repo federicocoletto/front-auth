@@ -50,7 +50,7 @@ const Login = () => {
                 Submit
             </ButtonLoading>
             <p className="text-muted mt-2">
-                Don't have an account? <Link to="/signup">Sign up</Link>
+                Don't have an account? - <Link to="/signup">Sign up</Link>
             </p>
             <Link to="/reset_password/email">I forgot my password</Link>
         </Form>
